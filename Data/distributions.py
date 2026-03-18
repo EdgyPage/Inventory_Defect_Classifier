@@ -56,3 +56,23 @@ def sample_exponential_decay(lam, size=1):
         Sampled values from exponential distribution
     """
     return np.random.exponential(1/lam, size)
+
+def sample_beta(alpha, beta, size=1):
+    """
+    Draw `size` samples from a Beta(alpha, beta) distribution on [0,1].
+
+    Parameters
+    ----------
+    alpha : float
+        Shape parameter α > 0 (pulls mass toward 1 when > β).
+    beta : float
+        Shape parameter β > 0 (pulls mass toward 0 when > α).
+    size : int or tuple, optional
+        Number/shape of samples. Default is 1.
+
+    Returns
+    -------
+    samples : ndarray
+        Array of samples in [0,1].
+    """ 
+    return np.random.beta(alpha, beta, size=size)
