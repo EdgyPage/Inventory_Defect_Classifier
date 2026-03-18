@@ -76,3 +76,15 @@ def sample_beta(alpha, beta, size=1):
         Array of samples in [0,1].
     """ 
     return np.random.beta(alpha, beta, size=size)
+
+def beta_from_mean_var(mu, var):
+    """
+    Return alpha, beta for Beta(α,β) with given mean μ and variance var.
+    
+    var must be < μ(1-μ).
+    """
+    if var >= mu * (1 - mu):
+        raise ValueError("var must be < mu*(1-mu)")
+    alpha = mu * (mu * (1 - mu) / var - 1)
+    beta_param = alpha * (1 - mu) / mu
+    return alpha, beta_param
