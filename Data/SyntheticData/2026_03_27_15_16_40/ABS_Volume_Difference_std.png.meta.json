@@ -1,0 +1,4 @@
+{
+  "caption": "Feature Distributions by Defect Status - ABS_Volume_Difference_std",
+  "description": "Overlay histogram of ABS_Volume_Difference_std grouped by Problem_SKU with probability density normalization."
+}
