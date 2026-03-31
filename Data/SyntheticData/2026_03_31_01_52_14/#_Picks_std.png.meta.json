@@ -1,0 +1,4 @@
+{
+  "caption": "Feature Distributions by Defect Status - #_Picks_std",
+  "description": "Overlay histogram of #_Picks_std grouped by Problem_SKU with probability density normalization."
+}

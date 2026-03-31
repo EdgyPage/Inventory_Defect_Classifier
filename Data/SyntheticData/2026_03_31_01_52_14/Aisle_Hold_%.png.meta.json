@@ -1,0 +1,4 @@
+{
+  "caption": "Feature Distributions by Defect Status - Aisle_Hold_%",
+  "description": "Overlay histogram of Aisle_Hold_% grouped by Problem_SKU with probability density normalization."
+}
