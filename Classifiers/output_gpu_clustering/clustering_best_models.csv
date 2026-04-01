@@ -1,0 +1,3 @@
+algorithm,param_name,param_value,fit_mode,fit_seconds,silhouette,calinski_harabasz,davies_bouldin,n_clusters,noise_rate
+DBSCAN,eps/min_samples,0.5/5,cpu_fallback,22.768592834472656,0.42566280711750326,45.593056580949956,0.8338547910139646,30,0.9993818181818181
+GMM,n_components,2,cpu_fallback,4.523840427398682,0.15996678376442117,16446.301455281675,2.9283594106416517,2,0.0
