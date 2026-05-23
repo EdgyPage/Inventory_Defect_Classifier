@@ -1,0 +1,4 @@
+{
+  "caption": "Feature Distributions by Defect Status - Global_SKU_Defect_Rate_%_std",
+  "description": "Overlay histogram of Global_SKU_Defect_Rate_%_std grouped by Problem_SKU with probability density normalization."
+}

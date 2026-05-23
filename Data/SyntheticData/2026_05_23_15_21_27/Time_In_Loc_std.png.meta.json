@@ -1,0 +1,4 @@
+{
+  "caption": "Feature Distributions by Defect Status - Time_In_Loc_std",
+  "description": "Overlay histogram of Time_In_Loc_std grouped by Problem_SKU with probability density normalization."
+}
